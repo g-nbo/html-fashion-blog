@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h1 {
+    color: red;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    
+    
+}
+
+article > a {
+    margin-left: auto;
+}
