@@ -1,20 +1,67 @@
+html {
+    border-left: 5px lightgray solid;
+}
+
 body {
-    display: flex;
-    flex-direction: column;
-    
+    min-height: 100vh;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header, main, footer {
+    padding: 1rem 2rem;
 }
 
 h1 {
-    color: red;
+    color: tomato;
 }
 
-ul {
+img {
+    width: 100%;
+}
+
+.navLinks {
     display: flex;
-    list-style: none;
-    
+    padding: 0;
+    list-style-type: none;
+    justify-content: space-between;
     
 }
 
-article > a {
-    margin-left: auto;
+header .navLinks a {
+    color: lightgray;
 }
+
+footer .navLinks a {
+    color: tomato;
+}
+
+article > h2 {
+    font-size: 3em;
+}
+
+article a {
+    color: tomato;
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+    font-weight: bold;
+}
+
+article {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+    padding: 2rem;
+}
+
+article > p::first-letter {
+    font-size: 6em;
+    color: lightgray;
+    float: left;
+}
+
+footer p {
+    color: lightgray;
+}
+
